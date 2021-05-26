@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsolved cases</title>
+</head>
+       <center> <h2>
+        <i style="border: 2px solid black; background-color: beige; " > Unsolved Mysterious Cases</i>
+        </center>
+<body>
+     <details style="background-color: rgb(220, 20, 20);" > 
+        <b> During the 1893 World's Fair in Chicago, H.H. Holmes charmed and lured victims to his castle of horrors, where he murdered them and hid their bodies in the walls. Rooms were built air-tight, hallways mapped out like a maze, and a large chute was fed down to the basement where there were vats of acid to throw the bodies into. </b>  <div style="background-color: rgb(235, 197, 101);"  > During the 1893 World's Fair in Chicago, H.H. Holmes charmed and lured victims to his castle of horrors, where he murdered them and hid their bodies in the walls. Rooms were built air-tight, hallways mapped out like a maze, and a large chute was fed down to the basement where there were vats of acid to throw the bodies into. <div> </details>
+    <br>
+      <div> <details  style="background-color: rgb(220, 20, 20);" >
+          <b> Many murder cases go unsolved for years and then remain a mystery. In India, there are many murder cases which have gone unsolved or the convicts were acquitted due to their innocence or the cases got lost in the oblivion. Here is a list of unsolved murder mysteries in India.</b> 
+          <div style="background-color: rgb(235, 197, 101);" > 
+              Noida Double Murder Case, 2008: Commonly known as Aarushi Murder Case, the murder case involved the murder of a 14 year old girl, Arushi Talwar and the 45 year old servant Hemraj Banjade. The murder case received media coverage and there were many allegations on Aarushi's parents, Dr. Rajesh Talwar and Nupur Talwar.  In 2013, the parents were sentenced to life imprisonment while they challenged the decision in Allahabad High Court   </div>  
+          </div>
+          <br>
+    <div>  <details>
+      <b> <summary  style="background-color: rgb(235, 197, 101);" >  The Entire Nation was Left Biting their Nails or Read a Murder Mystery,</b> 
+            <details style="background-color: rgb(220, 20, 20);" >    It’s always exciting to watch  but what’s your take on true crime? Recently, the entire nation was left biting their nails and glued to their couches when the Arushi verdict came out.
+             And a similar something happened a couple of months ago, during the Sheena Bora murder mystery. Well, could we ever forget questioning who killed the innocent Pradyumn Thakur? I guess not! There’s nothing more chilling than an unsolved murder case – and India has quite a few. Even when in some of the cases the court has ruled their decision, deep down it is hard for us to accept it.
+            
+    </details> </div>
+   
+  
+          
+          <article class="unsolved case"  id="mysterious1" >
+           <h1 >  <s>Cases Index</s>   </h1>
+              <article class="day-crime">
+                  <h3> 1st Case Details <div>
+                    7  March 1893 
+                    Chicago Death
+                  </div>
+                  <h4>  3:36 AM </h4>
+              </article>
+              <article class="unsolved case">
+                  <h3> 2nd Case Details <div> June 2014 Unsolved India Case </div></h2>
+                  <p>  </p>
+              </article>
+              <article class="unsolved cased">
+                  <h2>3rd Case of Sheena Bora murder mystery </h2>
+                   <h4> NO clue who killed Pradyumn Thakur </h4>
+              </article>
+          </article>
+              <link rel="stylesheet" href="/zaf.css">
+          <hr>
+        <strong> <i><p style="background-color: hotpink;"   id="box2"  >The next unsolved mystery is similar to the Pollocks. George and Jennie Sodder of West Virginia were forced to cope not only with the immeasurable loss of their children but also with the mysterious circumstances surrounding that loss. After the Sodder home burned to the ground on the night before Christmas in 1945, five of the ten Sodder children were still alive and accounted for. But what about the other five? From all accounts, it would seem that they had vanished into thin air.</p></i> </strong>
+  
+          <aside>
+           <i> <p>  Notice how we don’t say “vanished into smoke”? That’s because, in the ruins of the fire, zero physical evidence of the children could be found, which is virtually impossible from a scientific standpoint. But that wasn’t all that smelled off about the events of that night. Apparently George tried to save the children who he believed were still trapped inside by using his coal truck, which strangely, was inoperable; the phone lines to the house were found to have been cut; a woman claimed to have seen all five missing children peering from a passing car while the fire was in progress; and a woman at a Charleston hotel who saw the children’s photos in a newspaper said she had seen four of the five a week after the fire. “The children were accompanied by two women and two men, all of the Italian extraction,” she said in a statement. “I tried to talk to the children in a friendly manner, but the men appeared hostile… and wouldn’t allow it.”</p></i>  
+          </aside>
+          
+         <i> <p> The Sodder family theorized that the children had been kidnapped, perhaps in an attempt to extort money, perhaps to coerce George into joining the local mafia (the Sodders were Italian immigrants), or perhaps in retaliation for George’s outspoken criticism of Mussolini and Italy’s fascist government. From the 1950s until Jennie Sodder’s death in the late 1980s, the Sodder family maintained a billboard on State Route 16, with pictures of the five vanished children and offering a reward for information. The last (known) surviving Sodder child, Sylvia, 69, still doesn’t believe her siblings perished in the fire. Here are some</p></i>
+          <link rel="stylesheet" href="/2.css" id="box2" >
+
+          <img src="https://lh3.googleusercontent.com/-_jbwLcIiU0M/Xwt1Yb9iywI/AAAAAAAACuU/w-tNsm6ngvUhOOtpspX--lj0he33c4p1ACLcBGAsYHQ/s1600/1594586461968505-0.png" alt="error find"  width="1000"  height="600" >
+   
+         <div> <strong   style="background-color: lawngreen;" >  Click here  to read more Unsolved  :<a href="https://www.rd.com/list/strangest-unsolved-mysteries/">  Cases </a> </strong> </div> 
+</body>
+</html>
