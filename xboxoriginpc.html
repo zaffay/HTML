@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>originpc.com</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/360.css">
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f1f1f1;
+  font-family: 'open sans' sans-serif;
+}
+nav{
+  background-color: #0a0a08;
+  background-image: -webkit-linear-gradient(left,#0a0c0b,#141516);
+  background-image: linear-gradient(to right, #000103,#171818);
+width: auto;
+height: 60px;
+margin: auto;
+ position: relative;
+}
+#bar, .btn{
+  display:none;
+}
+lable.origin{
+color:#ff0000;
+float: left;
+font-size: 38px;
+padding: 0 4%;
+line-height: 60px;
+font-weight: 700;
+}
+ul{
+  float:left;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+}
+ul li a{
+  color: #fff;
+  line-height: 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0 15px;
+}
+ul li:hover{
+  background-color: #22fa05a2;
+}
+#bc2{
+display: none;
+}
+.search-icon i{
+position: absolute;
+float: left;
+right: 5%;
+width: 60px;
+height: 60px;
+line-height: 60px;
+color: #ffff;
+font-size: 16px;
+text-align: center;
+cursor: pointer;
+}
+.search-icon i:hover{
+background-color: #4258d680;
+}
+.search-box{
+position: absolute;
+float: left;
+background-color: #1e232b;
+right: 5%;
+top: -60px;
+width: 300px;
+height: 58px;
+padding: 10px;
+border-radius: 4px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+transition: all 0.17s ease;
+}
+.search-box::before{
+content: '';
+position: absolute;
+top: 0;
+right: 20px;
+width: 0;
+height: 0;
+border: 10px solid transparent;
+border-bottom-color: #1e232b;
+margin: -20px 0 0 ;
+}
+form{
+width: 100%;
+height: 38px;
+right: 0;
+background-color: #9b9b9b08;
+display: flex;
+overflow: hidden;
+padding: 2px;
+border: 1px solid #9b9b9b33;
+border-radius: 4px
+}
+.search{
+width: 95%;
+background-color: #00000000;
+color: #fff;
+padding: 0 10px;
+font-family: inherit;
+font-size: 14px;
+font-weight: 400;
+border: 0;
+outline: none;
+}
+.sub{
+font-size: 14px;
+padding: 0 13px;
+border: 0;
+background-color: #009900;
+color: #009900;
+border-radius: 4px;
+cursor: pointer;
+}
+.sub:hover{
+background-color: #3653f780
+}
+#bc2:checked ~.search-box{
+  top: 60px;
+}
+.zawed{
+position: absolute;
+float: left;
+right: 10%;
+
+}
+
+.sub-menu-1{
+display:none;
+}
+.menu ul li:hover .sub-menu-1{
+display: block;
+ position: absolute;
+background-color: rgba(0,0,0,.05);
+margin-top: 15px;
+margin-left: 15px;
+}
+.menu ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.wall-text {
+  position:absolute;
+  top:35%;
+  color:white;
+  padding: 40px;
+
+}
+.wall-text h1{
+font-size: 60px;
+text-transform: uppercase;
+font-weight: bold;  
+}
+.wall-text p{
+  font-size: 30;
+}
+.write {
+  background-color: rgb(24, 20, 20);
+  overflow: hidden;}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .menu a:hover {
+    background-color:rgb(11, 189, 11);
+    color: black;
+  }
+  
+  .menu a.active {
+   
+    color: white;
+  }
+  
+.menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a:not(:first-child) {display: none;}
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+.wall{
+  max-width: 100%;
+  height: auto;
+
+
+}
+.wall-text{
+  padding: auto;
+  color: white;
+  font-family: sans-serif;
+}
+h1{
+  text-align:auto;
+  font-size:5vw ;
+}
+p{
+  text-align: justify;
+  font-size: 2vw;
+}
+    </style>
+  </head>
+  <body class="write">
+    <nav>
+  <lable class="origin">ORIGIN</lable>
+      <div class="menu">                         
+    <ul>
+    <li><a herf="#" class="menu-item">DESKTOP</a>
+      <div class="sub-menu-1">
+        <ul>
+          <li><a href="#">Gaming Station<a></li>
+              <li><a href="#">WorkStation Desktops<a></li>
+               <li><a href="#">Goverment&Corporate<a> </li>
+         </ul>
+      </div> 
+    </li>
+    <li><a herf="#" class="menu-item">LAPTOP</a></li>
+    <li><a herf="#" class="menu-item">ACCESSORIES</a></li>
+    <li><a herf="#" class="menu-item">SPECIAL OFFERS</a></li> 
+    <li><a herf="#" class="menu-item">REVIEWS</a></li>
+    <li><a herf="#" class="menu-item">MORE</a></li> 
+   </ul>
+</div>
+      <input type="checkbox" id="bc2">
+      <lable for="bc2" class="search-icon">
+         <i class="fa fa-search"></i>
+       </lable>
+        <div class="search-box">
+          <form>
+             <input type="search" placeholder="search..." class="search">
+            <input type="submit" value="Ok" class="sub">
+            </form>
+          </div>
+          <div class="zawed">
+            <ul class ="nav navbar-nav navbar-right">
+              <li><a href ="#"><span class ="glyphicon glyphicon-user">Sign In</a</li></ul>
+                   <i class="fas fa-user-plus"></i>
+          </div>
+     </nav>
+     <div >
+      <img class="wall"  src="https://cogconnected.com/wp-content/uploads/2015/11/Xbox-One-Misc-HERO-console.jpeg" alt="erre" >
+     <div class="wall-text">
+       <h1>
+        XBOX GAME PASS <br>
+        FOR PC</h1>
+        <p>Order any ORIGIN PC and get a FREE 1 month  <br>subscription for Xbox Game Pass for PC
+           to get <br> instant access to 100+ PC games!*</p>
+     </div>
+    </div>
+     
+ 
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>  
+  </html>
